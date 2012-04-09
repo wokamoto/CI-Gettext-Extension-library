@@ -39,16 +39,6 @@ class MY_Lang extends CI_Lang {
 
 		if ( !isset($language) ) {
 			$language = $this->ci->config->item('language');
-/*
-			$this->ci->load->database();
-			$this->ci->load->model('tank_auth/users');
-			$this->ci->load->library('tank_auth');
-			if ( $this->ci->tank_auth->is_logged_in() ) {
-
-				$userid = intval($this->ci->tank_auth->get_user_id());
-				$language = $this->ci->users->get_language($userid);
-			}
-*/
 		}
 
 		if ( !isset($language) || !in_array($language, $this->ci->config->item('selectable_languages')) )

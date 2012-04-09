@@ -1,0 +1,10 @@
+Code Igniter Gettext Extension library
+
+This Library overides the original CI's language class.
+
+@package       Gettext Extension
+@author        wokamoto
+@copyright     Copyright (c) 2012
+@license       http://www.gnu.org/licenses/lgpl.txt
+@version       Version 0.1
+@since         2012 January, 27th
